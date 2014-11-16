@@ -1,0 +1,231 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+/************************************
+GENERAL
+************************************/
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	position:absolute;
+	width : 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#wrapper
+{
+	position:absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+img
+{
+	max-width:100%;
+}
+
+/************************************
+HEADING
+************************************/
+header {
+	margin: 0 0 auto 0;
+	padding: 0;
+}
+
+header nav
+{
+	/*float: left;*/
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+	text-align: left;
+}
+
+#title
+{
+	text-align: left;
+	margin: 0;
+}
+
+h1
+{
+	font-weight: normal;
+	font-size: 2em;
+	margin: 15px 0;
+	line-height: 0.8em;
+}
+
+/************************************
+NAVIGATION
+************************************/
+nav
+{
+  text-align: left;
+  /*padding: 10px 0;
+  margin: 20px 0 0;*/
+}
+
+nav ul
+{
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li
+{
+  display: inline-block;
+}
+
+nav a
+{
+  font-weight: 800;
+  padding: 15px 10px;
+  font-size: 1em;
+}
+
+/************************************
+HOME PAGE (LIST OF COURSES)
+************************************/
+#subjects
+{
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+#subjects li
+{
+	float: left;
+	width: 45%;
+	/*height: 45%;*/
+	margin: 2.5%;
+}
+
+#subjects li a
+{
+	display:inline-block;
+	height: 100%;
+	width: 100%;
+}
+
+#subjects li a div
+{
+	text-align:center;
+	padding: 10px 10px;
+	box-shadow: 5px 5px 4px #888888;
+}
+
+#subjects li a div p
+{
+	margin: 0;
+	padding: 5%;
+	font-size: 0.75em;
+}
+
+h3
+{
+	font-size:1em;
+}
+
+#subjects li a div img
+{
+	max-width: 100%;
+}
+
+/************************************
+DEMO PAGE
+************************************/
+.problem
+{
+	width: 25%;
+	height: 100%;
+	background-color:#9C9C9C;
+	padding:10px 20px;
+	margin: 0 auto 0 0;
+	display: inline-block;
+}
+
+.workspace
+{
+	height: 100%;
+	padding:10px 20px;
+	margin: 0 0 0 auto;
+	display: inline-block;
+}
+
+/* Hides "Correct!" message by default */
+#correct_msg {
+	visibility: hidden;
+}
+
+/************************************
+COLORS
+************************************/
+body
+{
+	background-color: #505050; 
+}
+
+#title
+{
+	color: #A7C520;
+}
+
+nav a
+{
+	color: #185FFA;
+}
+
+nav a:hover
+{
+	color: #18A2FA;
+}
+
+.description
+{
+	color: #ffffff;
+}
+
+#subjects li a div
+{
+	background: #f5f5f5;
+	color: #444647;
+}
+
+#subjects li a:hover
+{
+	background: #52B5AF;
+}
+
+#subjects li a div p
+{
+	color: #444647;
+}
+
+.subject_area h3
+{
+	color: #ffffff;
+}
+
+.workspace
+{
+	color: #ffffff;
+}
